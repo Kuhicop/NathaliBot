@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<object type="TAForm" name="Form1_1">
+	<properties>
+		<property name="Left" vt="Int16">238</property>
+		<property name="Top" vt="Int16">164</property>
+		<property name="Width" vt="Int16">521</property>
+		<property name="Height" vt="Int16">272</property>
+		<property name="Caption" vt="String">Nathali Bot v1.0.0</property>
+		<property name="Color" vt="Ident">clBtnFace</property>
+		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+		<property name="Font.Color" vt="Ident">clWindowText</property>
+		<property name="Font.Height" vt="Int8">-11</property>
+		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Style" vt="Set"/>
+		<property name="Icon.Data" vt="Binary">
+			<bin>0000010001001010000001002000680400001600000028000000100000002000</bin>
+			<bin>00000100200000000000000400006F0000006F0000000000000000000000FFFF</bin>
+			<bin>FF00FFFFFF00FFFFFF00FFFFFF0000000010191816F85B5852F75B5852F95A57</bin>
+			<bin>51F855514BF20D0C09EE00000010FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF</bin>
+			<bin>FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0033312B7224221DF34E493FFF4844</bin>
+			<bin>3AFF181713E71A151062FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF003737</bin>
+			<bin>30703E3C36CB3E3C36CB3E3C36CB3E3C36CB3E3C36CB24221DF34E493FFF4844</bin>
+			<bin>3AFF201E1BED3E3C36CB3E3C36CB3E3C36CB3E3C36CB2F2C27BE1B1813604E4B</bin>
+			<bin>43F8DCD8CFFFDCD8CFFFDCD8CFFFDCD8CFFFDCD8CFFFDCD8CFFFDCD8CFFFDCD8</bin>
+			<bin>CFFFDCD8CFFFDCD8CFFFDCD8CFFFDCD8CFFFDCD8CFFFD3CEC3FF2F2B1DE42825</bin>
+			<bin>0DFC514B20FF3F2D0EFF312307FF1D2B20FF21696EFF21696EFF21696EFF2169</bin>
+			<bin>6EFF21696EFF266566FF242615FF2E220AFF3F2D0EFF504A1EFF191704F2584F</bin>
+			<bin>00F6C7B000FF6A470CFF6C4908FF336356FF3AEBFFFF3AEBFFFF3AEBFFFF3AEB</bin>
+			<bin>FFFF3AEBFFFF38E5FEFF445638FF674608FF6A470CFFC3AD00FF373300DE584F</bin>
+			<bin>00F6D4BC00FF766204FF503804FF808037FF256869FF246869FF246869FF2468</bin>
+			<bin>69FF246869FF2F625AFF88711EFF4A3504FF766204FFD0B900FF373300DE584F</bin>
+			<bin>00F6D4BC00FFD4BC00FF725B01FF674801FF6B4B01FF6E4C02FF724D05FF6B47</bin>
+			<bin>04FF6A4901FF6B4B01FF5F4301FF6E5C01FFD4BC00FFD0B900FF373300DE584F</bin>
+			<bin>00F6D4BC00FFD4BC00FFD4BC00FFD4BC00FFD4BC00FF5A3D07FFEA9121FFDB86</bin>
+			<bin>17FF4E3803FFD4BC00FFD4BC00FFD4BC00FFD4BC00FFD0B900FF373300DE584F</bin>
+			<bin>00F6D4BC00FFD4BC00FFBFAA00FF826E00FF806E11FF3B2B0BFF906122FF885C</bin>
+			<bin>1EFF352709FF806E11FF806E00FFBFAA00FFD4BC00FFD0B900FF373300DE584F</bin>
+			<bin>00F6D4BC00FFD4BC00FF5B4300FFA57201FF56534CFF82807BFF82807BFF8280</bin>
+			<bin>7BFF82807BFF56534CFF966501FF534100FFD4BC00FFD0B900FF373300DE584F</bin>
+			<bin>00F6D4BC00FF4B591FFF463C10FFDA9702FF5B5649FF828282FF828282FF8282</bin>
+			<bin>82FF828282FF5B5649FFCC8B02FF333C21FF4B591FFFD0B900FF373300DE584F</bin>
+			<bin>00F6CBB400FF275C51FF58501BFFF4A902FFBC8202FFA87401FFAF7901FFAF79</bin>
+			<bin>01FFA87401FFBC8202FFE49B02FF3B5138FF275C51FFC8B200FF373300DE584F</bin>
+			<bin>00F6D4BC00FF425120FF473E12FFDD9902FF34695BFF4B603AFFF4A902FFF4A9</bin>
+			<bin>02FF4B603AFF34695BFFCF8C02FF333E24FF425120FFD0B900FF373300DE342E</bin>
+			<bin>00E8897900FE897900FE573F01FFEAA202FF4B603AFF6E6C2BFFF4A902FFF4A9</bin>
+			<bin>02FF6E6C2BFF4B603AFFDB9502FF4D3B01FF897900FE7B6E00FC1D1B00D20000</bin>
+			<bin>00080000002F00000030543902A1664601F5684601F6684601F6684601F66846</bin>
+			<bin>01F6684601F6684601F6573901E831200286000000300000002F00000008F00F</bin>
+			<bin>0000F81F00000000000000000000000000000000000000000000000000000000</bin>
+			<bin>000000000000000000000000000000000000000000000000000000000000</bin>
+		</property>
+		<property name="OldCreateOrder" vt="False">False</property>
+		<property name="Visible" vt="True">True</property>
+		<property name="PicturePath" vt="String">C:\Users\kuhi\Desktop\Nathali Bot\bot.ico</property>
+		<property name="Style" vt="Int32">-1798701056</property>
+		<property name="ExStyle" vt="Int16">256</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="FormOptOnEvent" vt="False">False</property>
+		<property name="FormOptExpVars" vt="False">False</property>
+		<property name="FormOptPopulate" vt="False">False</property>
+		<property name="FormOptVarsForSet" vt="False">False</property>
+		<property name="FormOptIndentChar" vt="Int8">0</property>
+		<property name="FormOptIndentCount" vt="Int8">1</property>
+		<property name="FormOptIndentInit" vt="Int8">0</property>
+		<property name="FormOptVarScope" vt="Int8">0</property>
+		<property name="Resizing" vt="Set"/>
+		<property name="PixelsPerInch" vt="Int8">96</property>
+		<property name="TextHeight" vt="Int8">13</property>
+	</properties>
+	<components>
+		<object type="TAGroup" name="Runemaker">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int16">193</property>
+				<property name="Height" vt="Int16">193</property>
+				<property name="CtrlStyle" vt="Int32">1342308359</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Caption" vt="String">Runemaker</property>
+				<property name="TabOrder" vt="Int8">1</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TACheckbox" name="Dance">
+			<properties>
+				<property name="Left" vt="Int8">24</property>
+				<property name="Top" vt="Int8">32</property>
+				<property name="Width" vt="Int16">129</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="String">Dance</property>
+				<property name="TabOrder" vt="Int8">0</property>
+				<property name="CtrlStyle" vt="Int32">1342242819</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Label1">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int16">208</property>
+				<property name="Width" vt="Int8">55</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="String">OUTPUT: </property>
+				<property name="TabOrder" vt="Int8">2</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Output">
+			<properties>
+				<property name="Left" vt="Int8">64</property>
+				<property name="Top" vt="Int16">208</property>
+				<property name="Width" vt="Int16">163</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="String">Here will be printed all debug info.</property>
+				<property name="TabOrder" vt="Int8">3</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342308608</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+	</components>
+</object>
