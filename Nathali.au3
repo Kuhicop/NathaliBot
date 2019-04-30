@@ -26,12 +26,14 @@
 #include <StringConstants.au3>
 #include <Misc.au3>
 
+Global $EXE_full_name = "WATclient-DX9.exe"
+Global $Client_Window_Title = "Camille - WeAreTibia"
 Global $Settings_Loaded = False
 
 HotKeySet("{PAUSE}","PauseBot")
 HotKeySet("{HOME}","ResumeBot")
 HotKeySet("{END}","Quit")
-HotKeySet("t","TestFunc")
+;HotKeySet("t","TestFunc")
 
 Global $BotVersion = "1"
 
@@ -1259,10 +1261,10 @@ If Not $Settings_Loaded Then
 		IniWrite("settings.ini", "GENERAL", "Website", "www.kuhiscripts.com")
 
 		;CLIENT
-		$WindowTitle = "MasterCores"
-		IniWrite("settings.ini", "CLIENT", "Window", "MasterCores")
-		$ClientProcess = "client_dx.exe"
-		IniWrite("settings.ini", "CLIENT", "Process", "client_dx.exe")
+		$WindowTitle = $Client_Window_Title
+		IniWrite("settings.ini", "CLIENT", "Window", $Client_Window_Title)
+		$ClientProcess = $EXE_full_name
+		IniWrite("settings.ini", "CLIENT", "Process", $EXE_full_name)
 
 		;DEBUG
 		IniWrite("settings.ini", "DEBUG", "DEBUG_MODE", "False")
@@ -1351,7 +1353,7 @@ Func FindTibia()
 OutputMSG("Finding Tibia process.")
 $PID = ProcessExists($ClientProcess)
 If $PID = 0 Then
-	msgbox(16, "ERROR", "Unable to find a Tibia process!")
+	msgbox(16, "ERROR", "Unable to find a Tibia process: " & $ClientProcess)
 	Exit
 Else
 	$WindowTitle = _WinGetByPID($PID)
@@ -1359,7 +1361,7 @@ Else
 		OutputMSG("Client found at PID " & $PID & ".")
 		Return True
 	Else
-		msgbox(16, "ERROR", "Unable to find Tibia window name!")
+		msgbox(16, "ERROR", "Unable to find Tibia window name: " & $WindowTitle)
 		Exit
 	EndIf
 EndIf
